@@ -5050,6 +5050,12 @@ public final class Settings {
         public static final String SHOW_TOUCHES = "show_touches";
 
         /**
+         * Whether to use old style battery graph
+         * @hide
+         */
+        public static final String USE_OLD_BATTERY_GRAPH = "use_old_battery_graph";
+
+        /**
          * Log raw orientation data from
          * {@link com.android.server.policy.WindowOrientationListener} for use with the
          * orientationplot.py tool.
